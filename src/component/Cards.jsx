@@ -2,7 +2,6 @@ import { HiOutlineLightBulb } from "react-icons/hi2";
 import { HiLightBulb } from "react-icons/hi2";
 import { IoMoon } from "react-icons/io5";
 import { IoIosSunny } from "react-icons/io";
-import Light from "../component/light";
 import Data from "../json/Cards.json";
 import { useState } from "react";
 
