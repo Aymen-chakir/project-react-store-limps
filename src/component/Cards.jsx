@@ -3,11 +3,12 @@ import { HiLightBulb } from "react-icons/hi2";
 import { IoMoon } from "react-icons/io5";
 import { IoIosSunny } from "react-icons/io";
 import Data from "../json/Cards.json";
-import { useState } from "react";
+import { useState } from "react";import { useContext } from "react"
+import {ModeContext} from "../context/context"
 
 function Cards() {
     const [islight, setislight] = useState(false)
-    const [isdark, setisdark] = useState(false)
+    const {isdark, setisdark} = useContext(ModeContext)
     const [ishover, setishover] = useState(null)
     return (
         <div className>
