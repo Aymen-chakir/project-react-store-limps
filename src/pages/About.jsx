@@ -1,12 +1,15 @@
 import Nav from "../component/Navbar"
 import Cards from "../component/Cards"
-function  About(params) {
-    return(
+function About(params) {
+    return (
         <>
-        <Nav/>
-        <Cards/>
+            <div className="">
+                <Nav />
+                <Cards />
+            </div>
+
         </>
-        
+
     )
 }
 export default About
