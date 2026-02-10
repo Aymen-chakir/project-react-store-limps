@@ -32,7 +32,7 @@ function Cards() {
                     {Data.map((elem) => (
                         <div
                             key={elem.id}
-                            className="w-[400px] h-[500px] border  flex flex-col items-center "
+                            className="w-[400px] h-[500px] border  flex flex-col items-center overflow-hidden "
                             onMouseEnter={() => setishover(elem.id)}
                             onMouseLeave={() => setishover(null)}
 
@@ -55,8 +55,10 @@ function Cards() {
 
                             <h1 className="mt-2 font-bold">{elem.title}</h1>
                             <p className="text-gray-600">{elem.price}</p>
-                            <Link to={"/details"}>    
-                             <button className="w-[250px] rounded-3xl bg-[#281705] text-white  hover:bg-[#281705c4]">view details</button>
+                            <Link to={`/details/${elem.id}`}>
+                                <button className="w-[250px] rounded-3xl bg-[#281705] text-white hover:bg-[#281705c4]">
+                                    view details
+                                </button>
                             </Link>
                         </div>
                     ))}

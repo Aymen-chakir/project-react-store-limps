@@ -3,7 +3,7 @@ import { GiBedLamp } from "react-icons/gi";
 import { FaMagnifyingGlass } from "react-icons/fa6";
 function Nav() {
     return(
-        <div className="w-full h-[80px]  flex items-center justify-around">  
+        <div className="w-full h-[80px]  flex items-center justify-around border-b-2">  
         <div className="logo flex items-center gap-2">
             <GiBedLamp  className="text-3xl"/>
             <div className= " uppercase ">

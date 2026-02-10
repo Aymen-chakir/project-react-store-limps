@@ -14,6 +14,7 @@ import ldon from "../images/lamp-loung-dark-ch3l.webp"
 import ldoff from "../images/lamp-loung-dark-ch3l.webp"
 import lloff from "../images/lamp-lounge-light-off_1tafi.webp"
 import llon from "../images/lamp-lounge-light-on_1ch3l.webp"
+ 
+const Allimg = {Cdoff,Cdon,Cloff,clon,ddoff,ddon,dloff,dlon,dndoff,dndon,dnloff,dnlon,ldon,ldoff,lloff,llon}
 
-
-export default {Cdoff,Cdon,Cloff,clon,ddoff,ddon,dloff,dlon,dndoff,dndon,dnloff,dnlon,ldon,ldoff,lloff,llon}
+export default Allimg
